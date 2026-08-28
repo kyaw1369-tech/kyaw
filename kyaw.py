@@ -9,10 +9,10 @@ from datetime import datetime, timedelta, timezone
 
 # ── Environment variables ─────────────────────────────────────────────────
 BOT_TOKEN = os.getenv("8850576214:AAGWZQ6We9mop6vZ2rPgNPQi0mWNzlHGijs")
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "ဒီနေရာ")
-REPO_OWNER = os.getenv("REPO_OWNER", "ဒီနေရာ")
-REPO_NAME = os.getenv("REPO_NAME", "ဒီနေရာ")
-ADMIN_ID = os.getenv("ADMIN_ID", "ဒီနေရာ")
+GITHUB_TOKEN = os.getenv("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")
+REPO_OWNER = os.getenv("kyaw1369-tech")
+REPO_NAME = os.getenv("kyaw")
+ADMIN_ID = os.getenv("7245218170")
 
 # ── Global structures ─────────────────────────────────────────────────────
 SUCCESS_CODE = asyncio.Queue()
